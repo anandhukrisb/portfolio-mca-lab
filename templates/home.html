@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    .navbar-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar {
+        display: flex;
+        background-color: rgb(115, 115, 211);
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 90%;
+        align-self: center;
+        border-radius: 20px;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        
+    }
+    .hero-section {
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border-left-width: 10px rgb(240, 240, 116);
+    }
+    .cards {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+    .card {
+        background-color: #e0e0e0;
+        padding: 15px;
+        width: 20%;
+    }
+
+</style>
+<body>
+    <div class="navbar-wrapper">
+        <div class="navbar">
+            <a href="/">Home</a> |
+            <a href="/about">About Me</a> |
+            <a href="/eduskills">Education & Skills</a> |
+            <a href="/projects">Projects</a> |
+            <a href="/contact">Contact</a>
+        </div>
+    </div>
+    <!-- This is a well styled portfolio website -->
+    <h1>Welcome to My Portfolio</h1>
+    <div class="cards">
+        <div class="card">
+            <h2>Education & Skills</h2>
+            <ul>
+                <li>Bachelor's Degree in Computer Science</li>
+                <li>Pursuing Master's Degree in Computer Application</li>
+                <li>Proficient in Python, JavaScript, and HTML/CSS</li>
+                <li>Experience with Flask and Django frameworks</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: Portfolio Website - A personal portfolio website built using Flask.</li>
+                <li>Project 2: Gamified E-learning platform using Django and React Native</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Contact</h2>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: <a href="mailto:anandhukrishna10b@gmail.com">anandhukrishna10b@gmail.com</a></li>
+                <li>Phone: +91 9876543210</li>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Anandhu krishna B, a passionate developer pursuing my Master's Degree in Computer Application. I specialize in Python, JavaScript, and web development using Flask and Django frameworks.</p>
+    </div>
+</body>
+</html>
